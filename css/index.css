@@ -171,11 +171,12 @@ img {
 .nav {
   display: flex;
   width: 400px;
+  align-items: center;
 }
 .nav nav {
   width: 400px;
   display: flex;
-  margin-top: 8%;
+  margin-top: 4%;
   font-size: 1.5rem;
   justify-content: space-around;
 }
@@ -256,33 +257,35 @@ img {
 .home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
-  width: 95%;
+  width: 50%;
+  flex-direction: column;
+  display: flex;
 }
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
+.home .divboxes {
+  display: flex;
+  justify-content: space-evenly;
+}
 .home .content-destination {
-  width: 75%;
+  width: 80%;
   margin: 0 auto 30px;
 }
 .home .content-destination img {
   border-radius: 10px;
 }
-.home .content-pick {
+.home .content-destination .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 .home .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-@media (max-width: 500px) {
-  .home .destination {
-    width: 100%;
-  }
+  flex-direction: row;
 }
 .btn {
   background-color: #17A2B8;
@@ -291,4 +294,9 @@ img {
   height: 40px;
   font-size: 18px;
   border-radius: 20px;
+}
+.btn-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
