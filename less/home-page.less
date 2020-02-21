@@ -79,6 +79,7 @@
       padding-right: 0;
        width:95%;
        flex-direction: column;
+       display:flex;
     }
 
     .img-content {
@@ -96,9 +97,7 @@
 
     img {
       border-radius: 10px;
-      @media @phone{
-        width: 100%;
-    }
+      
     
   }
 
@@ -107,6 +106,7 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     flex-direction: column;
+    
   }
     
     
@@ -114,12 +114,16 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+    
+      @media @phone{
+        width: 100%;
+    }
      
         
       
   }
 }
-}// home
+}
 
 
 
