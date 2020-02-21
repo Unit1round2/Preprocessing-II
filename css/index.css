@@ -251,5 +251,15 @@ img {
   margin-bottom: 30px;
 }
 .btn {
-  color: red;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  width: 210px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 8%;
+}
+.btn-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
